@@ -1,7 +1,7 @@
 import platform, os
 
 ## CLEAR TERMINAL
-def clear(self):
+def clear():
     if platform.system() == "Windows":
             clear = lambda: os.system('cls')
             clear()
