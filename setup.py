@@ -10,5 +10,4 @@ setuptools.setup(
     url='https://github.com/need4swede/Python',
     license='MIT',
     packages=['clear_term'],
-    install_requires=['platform', 'os'],
 )
